@@ -33,8 +33,8 @@ PFLAGS += -DBLIP_L2_DELAY=128
 PFLAGS += -DLIB6LOWPAN_HC_VERSION=6
 
 # Keep statistics about various BLIP/IPv6 parameters. See BlipStatistics.h
-PFLAGS += -DBLIP_STATS
-PFLAGS += -DBLIP_STATS_IP_MEM
+#PFLAGS += -DBLIP_STATS
+#PFLAGS += -DBLIP_STATS_IP_MEM
 
 ################################################################################
 ### Configure RPL
@@ -64,7 +64,7 @@ PFLAGS += -DLPL_DEF_REMOTE_WAKEUP=512
 ### Configure printf() output
 ################################################################################
 
-PFLAGS += -DPRINTFUART_ENABLED
+#PFLAGS += -DPRINTFUART_ENABLED
 
 ################################################################################
 ### Configure this application

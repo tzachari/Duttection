@@ -159,6 +159,8 @@ implementation {
     atomic {
       current_motion = !current_motion;
       call Leds.led0Toggle();
+      call Leds.led1Toggle();
+      call Leds.led2Toggle();
       call MotionSensor.clear();
       call MotionSensor.edge(!current_motion);
     }
